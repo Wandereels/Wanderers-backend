@@ -10,10 +10,10 @@ app.use(express.json());
 app.use('/videos', express.static(path.join(__dirname, 'public')));
 
 const reelsData = [
-  { id: 1, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'http://localhost:4500/videos/reel.mp4' },
-  { id: 2, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'http://localhost:4500/videos/reel2.mp4' },
-  { id: 3, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'http://localhost:4500/videos/reel3.mp4' },
-  { id: 4, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'http://localhost:4500/videos/reel4.mp4' },
+  { id: 1, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'https://wanderers-backend.vercel.app/videos/reel.mp4' },
+  { id: 2, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'https://wanderers-backend.vercel.app/videos/reel2.mp4' },
+  { id: 3, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'https://wanderers-backend.vercel.app/videos/reel3.mp4' },
+  { id: 4, user: 'mountain_escape', avatar: 'https://i.pravatar.cc/40?img=11', videoUrl: 'https://wanderers-backend.vercel.app/videos/reel4.mp4' },
 
 ];
 
